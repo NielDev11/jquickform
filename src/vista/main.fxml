@@ -28,7 +28,7 @@
                   <TextField fx:id="txtcorreo" layoutX="194.0" layoutY="199.0" />
                   <TextField fx:id="txtcontrasena_correo" layoutX="194.0" layoutY="234.0" />
                   <Button fx:id="btnAceptar" layoutX="391.0" layoutY="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" text="Aceptar" />
-                  <ComboBox fx:id="cboxTipo" layoutX="193.0" layoutY="25.0" prefWidth="150.0" />
+                  <ComboBox fx:id="cboxTipo" layoutX="193.0" layoutY="25.0" onAction="#selectionHandler" prefWidth="150.0" />
                   <TextArea layoutX="23.0" layoutY="322.0" prefHeight="105.0" prefWidth="559.0" />
                   <Button fx:id="btnenviarCorreo" layoutX="391.0" layoutY="60.0" mnemonicParsing="false" text="Enviar Correo" />
                   <Label layoutX="55.0" layoutY="274.0" text="NUMERO DE TELEFONO" />
